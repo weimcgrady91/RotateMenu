@@ -16,7 +16,6 @@ import android.widget.RelativeLayout;
  */
 
 public class RotateMenuView extends LinearLayout implements View.OnClickListener {
-    private static final String TAG = "WEI_QUN";
     private RelativeLayout mRlRevel1;
     private RelativeLayout mRlRevel2;
     private RelativeLayout mRlRevel3;
