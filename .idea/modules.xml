@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RotateMenu.iml" filepath="$PROJECT_DIR$/RotateMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rotatemenu/rotatemenu.iml" filepath="$PROJECT_DIR$/rotatemenu/rotatemenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rotatemenu-demo/rotatemenu-demo.iml" filepath="$PROJECT_DIR$/rotatemenu-demo/rotatemenu-demo.iml" />
+    </modules>
+  </component>
+</project>
