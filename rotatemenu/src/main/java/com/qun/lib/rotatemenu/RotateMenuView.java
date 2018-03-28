@@ -155,8 +155,23 @@ public class RotateMenuView extends LinearLayout implements View.OnClickListener
         if (i == R.id.btn_menu) {
             if (AnimState.SHOW == mRlRevel3.getTag()) {
                 startAnimOut(mRlRevel3);
+                mIbChannel1.setEnabled(false);
+                mIbChannel2.setEnabled(false);
+                mIbChannel3.setEnabled(false);
+                mIbChannel4.setEnabled(false);
+                mIbChannel5.setEnabled(false);
+                mIbChannel6.setEnabled(false);
+                mIbChannel7.setEnabled(false);
             } else if (AnimState.HIDDEN == mRlRevel3.getTag()) {
                 startAnimIn(mRlRevel3);
+                mIbChannel1.setEnabled(true);
+                mIbChannel2.setEnabled(true);
+                mIbChannel3.setEnabled(true);
+                mIbChannel4.setEnabled(true);
+                mIbChannel5.setEnabled(true);
+                mIbChannel6.setEnabled(true);
+                mIbChannel7.setEnabled(true);
+
             }
 
         } else if (i == R.id.btn_home) {
@@ -164,12 +179,32 @@ public class RotateMenuView extends LinearLayout implements View.OnClickListener
                 if (AnimState.SHOW == mRlRevel3.getTag()) {
                     startAnimOut(mRlRevel3);
                     startAnimOut(mRlRevel2, 300);
+                    mIbChannel1.setEnabled(false);
+                    mIbChannel2.setEnabled(false);
+                    mIbChannel3.setEnabled(false);
+                    mIbChannel4.setEnabled(false);
+                    mIbChannel5.setEnabled(false);
+                    mIbChannel6.setEnabled(false);
+                    mIbChannel7.setEnabled(false);
+                    mIbSearch.setEnabled(false);
+                    mIbMyYouKu.setEnabled(false);
                 } else if (mRlRevel3.getTag() == AnimState.HIDDEN) {
                     startAnimOut(mRlRevel2);
+                    mIbSearch.setEnabled(false);
+                    mIbMyYouKu.setEnabled(false);
                 }
             } else if (AnimState.HIDDEN == mRlRevel2.getTag()) {
                 startAnimIn(mRlRevel2);
                 startAnimIn(mRlRevel3, 300);
+                mIbChannel1.setEnabled(true);
+                mIbChannel2.setEnabled(true);
+                mIbChannel3.setEnabled(true);
+                mIbChannel4.setEnabled(true);
+                mIbChannel5.setEnabled(true);
+                mIbChannel6.setEnabled(true);
+                mIbChannel7.setEnabled(true);
+                mIbSearch.setEnabled(true);
+                mIbMyYouKu.setEnabled(true);
             }
 
         }
