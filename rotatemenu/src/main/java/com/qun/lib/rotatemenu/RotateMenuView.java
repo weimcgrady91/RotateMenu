@@ -16,6 +16,7 @@ import android.widget.RelativeLayout;
  */
 
 public class RotateMenuView extends LinearLayout implements View.OnClickListener {
+    
     private RelativeLayout mRlRevel1;
     private RelativeLayout mRlRevel2;
     private RelativeLayout mRlRevel3;
