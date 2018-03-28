@@ -13,7 +13,7 @@ Step 1. Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.weimcgrady91:RotateMenu:1.0'
+	        compile 'com.github.weimcgrady91:RotateMenu:1.1.1'
 	}
 Copy
 Share this release:
